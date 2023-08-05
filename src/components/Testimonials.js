@@ -5,7 +5,7 @@ import style2 from "./Testimonials.module.css";
 
 function Testimonials() {
     return (
-        <section>
+        <section id={style2.testimonials}>
             <div className={style2.heading}>
                 <h2>Testimonials</h2>
             </div>
