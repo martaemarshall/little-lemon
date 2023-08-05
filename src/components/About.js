@@ -1,11 +1,13 @@
 import MarioAdrian1 from "../assets/Mario and Adrian A.jpg";
 import MarioAdrian2 from "../assets/Mario and Adrian b.jpg";
+import style from "./Hero.module.css";
+
 function About() {
     return (
         <section>
             <div>
-                <h1>Little Lemon</h1>
-                <h3>Chicago</h3>
+                <h1 className={style.title}>Little Lemon</h1>
+                <h3 className={style.title}>Chicago</h3>
                 <p>A little bit about our Adrian and Mario and how they found Little Lemon. 
 We hope that you will read more about us and be inspired.</p>
             </div>
