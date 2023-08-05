@@ -38,3 +38,15 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@500&display=swap');
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(244, 206, 20);
+  border-radius: 16px;
+  padding: 1em;
+}
+
+img {
+  border-radius: 16px;
+}
