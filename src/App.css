@@ -39,6 +39,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@500&display=swap');
 
+main,
+header,
+main,
+section,
+footer {
+  padding: 5%;
+
+}
+
 button {
   font-size: 18px;
   font-weight: 600;
