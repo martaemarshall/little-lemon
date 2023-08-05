@@ -13,7 +13,7 @@ function Card(props) {
             <p>{props.description}</p>
             <div className="delivery">
                 <h4 >Order a Delivery</h4>
-                <img src={delivery} alt="A delivery scooter icon"/>                
+                <img src={delivery} alt="A delivery scooter icon"/>
             </div>
         </div>
     );
