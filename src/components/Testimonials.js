@@ -1,12 +1,11 @@
 import Card from "./CardTestimonial";
 import photo from "../assets/lemon.png";
-import style1 from "./Card.css";
-import style2 from "./Testimonials.module.css";
+import style from "./Testimonials.module.css";
 
 function Testimonials() {
     return (
-        <section id={style2.testimonials}>
-            <div className={style2.heading}>
+        <section id={style.testimonials}>
+            <div className={style.heading}>
                 <h2>Testimonials</h2>
             </div>
             <div className="menu">

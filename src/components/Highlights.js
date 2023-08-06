@@ -8,7 +8,7 @@ import style2 from "./Highlights.module.css";
 function Highlights() {
     return (
         <section>
-            <div id={style2.highlights}>
+            <div id={style2}>
                 <div className={style2.topline}>
                     <h2>Specials</h2>
                     <div className={style2.menubutton}>
