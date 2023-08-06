@@ -1,4 +1,4 @@
-import style from "./Booking.module.css";
+import style from "./BookingForm.module.css";
 import {useState} from "react";
 import { format } from 'date-fns';
 
