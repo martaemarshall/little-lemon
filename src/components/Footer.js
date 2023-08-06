@@ -1,39 +1,46 @@
 import logo from "../assets/LogoColor.png";
+import style from "./Footer.module.css";
 
 function Footer() {
     return (
-        <footer>
-            <div>
-                <img src={logo} alt="Little Lemon Logo" width="200px" height="300px" />
+        <footer id={style.footer}>
+            <div className={style.logo}>
+                <img src={logo} alt="Little Lemon Logo"/>
             </div>
-            <div>
-                <p>Doormat Navigation</p>
-                    <nav>
+            <div className={style.nav}>
+                <div className={style.footernav}>
+                    <p className={style.header}>Doormat Navigation</p>
+                    <nav className={style.links}>
                         <ul>
-                            <li a='/'>HOME</li>
-                            <li a='/'>ABOUT</li>
-                            <li a='/'>MENU</li>
-                            <li a='/'>RESERVATIONS</li>
-                            <li a='/'>ORDER ONLINE</li>
-                            <li a='/'>LOGIN</li>
+                            <li>HOME</li>
+                            <li>ABOUT</li>
+                            <li>MENU</li>
+                            <li>RESERVATIONS</li>
+                            <li>ORDER ONLINE</li>
+                            <li>LOGIN</li>
                         </ul>
                     </nav>
-            </div>
-            <div>
-                <p>Contact</p>
-                <ul>
-                    <li>ADDRESS</li>
-                    <li>PHONE NUMBER</li>
-                    <li>EMAIL</li>
-                </ul>
-            </div>
-            <div>
-                <p>Social Media</p>
-                <ul>
-                    <li>FACEBOOK</li>
-                    <li>TWITTER</li>
-                    <li>INSTAGRAM</li>
-                </ul>
+                </div>
+                <div className={style.footernav}>
+                    <p className={style.header}>Contact</p>
+                    <nav className={style.links}>
+                        <ul>
+                            <li>ADDRESS</li>
+                            <li>PHONE NUMBER</li>
+                            <li>EMAIL</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div className={style.footernav}>
+                    <p className={style.header}>Social Media</p>
+                    <nav className={style.links}>
+                        <ul>
+                            <li>FACEBOOK</li>
+                            <li>TWITTER</li>
+                            <li>INSTAGRAM</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </footer>
     )
